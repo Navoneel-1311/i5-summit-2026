@@ -137,7 +137,7 @@ export const events: SummitEvent[] = [
     tagline: "Compete before you even land on campus.",
     description:
       "A series of competitions run through the fest website and i5 Summit's social media handles, open to participants beyond the physical campus footprint.",
-    date: "Ahead of 29-30 August 2026",
+    date: "Ahead of 29 August 2026",
     venue: "Online",
   },
 ];
