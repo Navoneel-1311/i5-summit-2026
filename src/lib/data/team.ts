@@ -200,11 +200,13 @@ export const verticals: Vertical[] = [
         name: "Utkrisht Sikka",
         role: "Vertical Coordinator",
         image: "/images/team/utkrisht-sikka.jpeg",
+        phone: "+91 85276 04552"
       },
       {
         name: "Himani Gugulotu",
         role: "Vertical Coordinator",
         image: "/images/team/himani-gugulotu.jpeg",
+        phone: "+91 88977 45182",
       },
     ],
     members: [

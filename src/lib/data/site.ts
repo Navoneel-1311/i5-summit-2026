@@ -6,9 +6,9 @@ export const site = {
   tagline: "Central India's Largest Entrepreneurship Summit",
   organizer: "Student Activity Council, IIM Indore",
   dates: {
-    start: "2026-08-21",
-    end: "2026-08-23",
-    display: "21–23 August 2026",
+    start: "2026-08-29",
+    end: "2026-08-30",
+    display: "29-30 August 2026",
   },
   venue: "IIM Indore Campus, Indore",
   mode: "Offline",
