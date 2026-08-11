@@ -24,7 +24,7 @@ export const events: SummitEvent[] = [
     tagline: "Pitch to VCs. Walk away with capital.",
     description:
       "i5 Summit's legacy startup event. Founders pitch their ideas to a jury panel of venture capitalists and get direct access to funding opportunities, with 1–3 VCs hosted on the judging panel.",
-    date: "21–23 August 2026",
+    date: "29-30 August 2026",
     venue: "New Auditorium, IIM Indore",
     prizePool: "₹2,00,000",
   },
@@ -35,7 +35,7 @@ export const events: SummitEvent[] = [
     tagline: "Business solutions for social challenges.",
     description:
       "A dynamic case competition where students tackle real-world social challenges through innovative, actionable business solutions — collaborating in teams to build impactful, well-researched cases that balance social value with practical execution.",
-    date: "21–23 August 2026",
+    date: "29-30 August 2026",
     venue: "IIM Indore Campus",
     prizePool: "Up to ₹40,000",
   },
@@ -46,7 +46,7 @@ export const events: SummitEvent[] = [
     tagline: "A business quiz that tests it all.",
     description:
       "A quizzing event on business, economy and marketing — challenging financial acumen, marketing savvy and knowledge of current events in a comprehensive format that captures the multi-faceted nature of business.",
-    date: "21–23 August 2026",
+    date: "29-30 August 2026",
     venue: "IIM Indore Campus",
     prizePool: "Up to ₹21,000",
   },
@@ -57,7 +57,7 @@ export const events: SummitEvent[] = [
     tagline: "Step into the shoes of a founder.",
     description:
       "A business simulation competition where students make real-world entrepreneurial decisions — forecasting demand, managing resources, and designing winning strategies under uncertainty. Combines analytics, creativity and strategic thinking.",
-    date: "21–23 August 2026",
+    date: "29-30 August 2026",
     venue: "IIM Indore Campus",
   },
   {
@@ -67,7 +67,7 @@ export const events: SummitEvent[] = [
     tagline: "Where startups meet the market.",
     description:
       "A vibrant exhibition platform for emerging businesses to connect with investors, industry experts and the community — showcasing products and services to all attendees and building visibility for funding and partnerships.",
-    date: "21–23 August 2026",
+    date: "29-30 August 2026",
     venue: "New Auditorium Common Area, IIM Indore",
   },
   {
@@ -77,7 +77,7 @@ export const events: SummitEvent[] = [
     tagline: "Learn directly from industry titans.",
     description:
       "Keynote addresses delivered by eminent guests from the industry — C-suite executives, founders and investors sharing perspective on this year's theme of AI innovation at scale.",
-    date: "21–23 August 2026",
+    date: "29-30 August 2026",
     venue: "New Auditorium, IIM Indore",
   },
   {
@@ -87,7 +87,7 @@ export const events: SummitEvent[] = [
     tagline: "Entrepreneurs and experts, in conversation.",
     description:
       "Moderated panel discussions bringing together entrepreneurs and experts from across the industry to debate the realities of building and scaling ventures.",
-    date: "21–23 August 2026",
+    date: "29-30 August 2026",
     venue: "New Auditorium, IIM Indore",
   },
   {
@@ -97,7 +97,7 @@ export const events: SummitEvent[] = [
     tagline: "Informal conversations, real insight.",
     description:
       "An informal, close-quarters interaction between students and participants — a relaxed setting for candid conversation with founders, investors and speakers.",
-    date: "21–23 August 2026",
+    date: "29-30 August 2026",
     venue: "IIM Indore Campus",
   },
   {
@@ -107,7 +107,7 @@ export const events: SummitEvent[] = [
     tagline: "Case-solving and product management, hands-on.",
     description:
       "Dedicated workshops for startups to learn from investors and experts, and for participants and college students to learn from founders and investors — including a thrilling case workshop that challenges strategic and analytical skills.",
-    date: "21–23 August 2026",
+    date: "29-30 August 2026",
     venue: "Syndicate Rooms, IIM Indore",
   },
   {
@@ -117,7 +117,7 @@ export const events: SummitEvent[] = [
     tagline: "Live the MBA life, for a day.",
     description:
       "An immersion program designed for CAT aspirants and MBA hopefuls to experience life at IIM Indore first-hand — with allocated mentors and an immersive look at student life, admissions and the MBA journey.",
-    date: "21–23 August 2026",
+    date: "29-30 August 2026",
     venue: "IIM Indore Campus",
   },
   {
@@ -137,7 +137,7 @@ export const events: SummitEvent[] = [
     tagline: "Compete before you even land on campus.",
     description:
       "A series of competitions run through the fest website and i5 Summit's social media handles, open to participants beyond the physical campus footprint.",
-    date: "Ahead of 21–23 August 2026",
+    date: "Ahead of 29-30 August 2026",
     venue: "Online",
   },
 ];

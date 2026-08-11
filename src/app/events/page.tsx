@@ -11,7 +11,7 @@ export default function EventsPage() {
   return (
     <div className="section-shell pt-36 pb-28">
       <div className="mx-auto max-w-2xl text-center">
-        <span className="eyebrow mx-auto">21–23 August 2026 · IIM Indore</span>
+        <span className="eyebrow mx-auto">29–30 August 2026 · IIM Indore</span>
         <h1 className="mt-5 text-balance text-4xl font-semibold text-white sm:text-5xl">
           Events at i5 Summit 2026
         </h1>

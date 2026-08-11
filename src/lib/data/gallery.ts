@@ -27,7 +27,7 @@ export const roadmap = [
   },
   {
     title: "i5 Summit 2026",
-    period: "21–23 August 2026",
+    period: "29 – 30 August 2026",
     description:
       "Three days on the IIM Indore campus: keynotes, panels, Get-Funded, Socio-Innovate, The Bottomline Quiz, The Venture Quest, the Startup Expo and more.",
   },

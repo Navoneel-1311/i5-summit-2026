@@ -116,7 +116,7 @@ export const faqs = [
   {
     question: "When and where is i5 Summit 2026?",
     answer:
-      "i5 Summit 2026 runs from 21–23 August 2026 in offline mode at the IIM Indore campus.",
+      "i5 Summit 2026 runs from 29–30 August 2026 in offline mode at the IIM Indore campus.",
   },
   {
     question: "What is this year's theme?",
