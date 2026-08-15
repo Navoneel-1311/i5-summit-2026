@@ -18,7 +18,7 @@ import { site } from "@/lib/data/site";
 
 const links = [
   { href: "/", label: "Home" },
-  { href: "/events", label: "Events" },
+  // { href: "/events", label: "Events" },
   { href: "/team", label: "Meet the Team" },
 ];
 

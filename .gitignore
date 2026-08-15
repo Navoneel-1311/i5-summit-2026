@@ -1,0 +1,14 @@
+# build output
+.next
+/out
+
+# dependencies
+/node_modules
+
+# IDE & OS files
+.DS_Store
+*.local
+.vscode/
+
+# environment variables
+.env*.local

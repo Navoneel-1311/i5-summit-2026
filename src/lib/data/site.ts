@@ -17,7 +17,7 @@ export const site = {
   socialHandle: "@i5summit",
   socials: {
     instagram: "https://instagram.com/i5summit",
-    linkedin: "https://linkedin.com/company/i5summit",
+    linkedin: "https://www.linkedin.com/company/i5summit-iimindore/",
   },
   description:
     "i5 Summit is IIM Indore's annual entrepreneurship summit — a platform to initiate a dialogue about entrepreneurship, connecting students, startups, investors and industry leaders. i5 Summit 2026 runs 21–23 August 2026 under the theme 'Mastering Change: AI Innovation at Scale.'",
