@@ -37,6 +37,25 @@ export const site = {
   ],
 } as const;
 
+export const flagshipEvents = [
+  {
+    title: "Get-Funded",
+    description:
+      "Pitch your startup directly to VCs and win a share of the ₹2,00,000 prize pool.",
+    category: "Competition",
+    unstopUrl:
+      "https://unstop.com/competitions/getfunded-i5-summit-2026-i5-summit-2026-iim-indore-1718129",
+  },
+  {
+    title: "A Day at IIM Indore",
+    description:
+      "A CAT-aspirant-focused program giving students an immersive look at life and learning at IIM Indore.",
+    category: "Workshop",
+    unstopUrl:
+      "https://unstop.com/workshops-webinars/a-day-at-iim-indore-i5-summit-2026-iim-indore-1718293",
+  },
+] as const;
+
 export const stats = [
   { label: "Startups", value: 63, suffix: "" },
   { label: "Investors", value: 30, suffix: "" },
