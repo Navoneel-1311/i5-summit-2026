@@ -17,6 +17,7 @@ export default function Home() {
       <Stats />
       <About />
       <WhyAttend />
+      <FlagshipEvents />
       <FeaturedSpeakers />
       <Sponsors />
       <Gallery />
