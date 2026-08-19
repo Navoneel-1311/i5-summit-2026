@@ -41,7 +41,7 @@ export const flagshipEvents = [
   {
     title: "Get-Funded",
     description:
-      "Pitch your startup directly to VCs and win a share of the ₹2,00,000 prize pool.",
+      "Pitch your startup directly to VCs and win a share of the ₹1,50,000 prize pool.",
     category: "Competition",
     unstopUrl:
       "https://unstop.com/competitions/getfunded-i5-summit-2026-i5-summit-2026-iim-indore-1718129",
@@ -145,7 +145,7 @@ export const faqs = [
   {
     question: "How can my startup participate?",
     answer:
-      "Startups can apply to showcase at the Startup Expo, pitch to VCs at Get-Funded for a share of the ₹2,00,000 prize pool, or seek mentorship through the Start-up Accelerator Program. Reach out to the team at i5summit@iimidr.ac.in.",
+      "Startups can apply to showcase at the Startup Expo, pitch to VCs at Get-Funded for a share of the ₹1,50,000 prize pool, or seek mentorship through the Start-up Accelerator Program. Reach out to the team at i5summit@iimidr.ac.in.",
   },
   {
     question: "How can my organization sponsor i5 Summit?",
