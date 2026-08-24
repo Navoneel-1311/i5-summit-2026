@@ -11,7 +11,7 @@ import { faqs } from "@/lib/data/site";
 
 export function FAQ() {
   return (
-    <section className="section-shell py-24 sm:py-32">
+    <section className="section-shell py-15 sm:py-8">
       <Reveal className="text-center">
         <span className="eyebrow mx-auto">FAQ</span>
         <h2 className="mx-auto mt-5 max-w-2xl text-balance text-3xl font-semibold text-white sm:text-4xl">

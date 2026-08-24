@@ -9,7 +9,7 @@ export function Sponsors() {
   const loop = [...pastSponsors, ...pastSponsors];
 
   return (
-    <section className="py-24 sm:py-32">
+    <section className="pt-4 pb-24 sm:pt-6 sm:pb-32">
       <div className="section-shell">
         <Reveal className="text-center">
           <span className="eyebrow mx-auto">Past Partners</span>

@@ -8,7 +8,7 @@ import { flagshipEvents } from "@/lib/data/site";
 
 export function FlagshipEvents() {
   return (
-    <section className="section-shell py-24 sm:py-32">
+    <section className="section-shell pt-4 pb-24 sm:pt-6 sm:pb-10">
       <Reveal className="text-center">
         <span className="eyebrow mx-auto">Flagship Events</span>
         <h2 className="mx-auto mt-5 max-w-2xl text-balance text-3xl font-semibold text-white sm:text-4xl">

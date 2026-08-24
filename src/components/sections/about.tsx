@@ -6,16 +6,17 @@ import { missionVision, ideateCycle } from "@/lib/data/site";
 
 export function About() {
   return (
-    <section id="about" className="section-shell py-24 sm:py-32">
-      <Reveal>
+    <section id="about" className="section-shell pt-4 pb-24 sm:pt-6 sm:pb-32 flex flex-col items-center text-center">
+      <Reveal className="flex flex-col items-center">
         <span className="eyebrow">About the Summit</span>
         <h2 className="mt-5 max-w-3xl text-balance text-3xl font-semibold text-white sm:text-4xl">
           A dialogue about entrepreneurship, hosted by IIM Indore.
         </h2>
-        <p className="mt-5 max-w-2xl text-balance text-base leading-relaxed text-ink-300 sm:text-lg">
+        <p className="mt-5 max-w-5xl text-balance text-base leading-relaxed text-ink-300 sm:text-lg">
           {missionVision.aim}
         </p>
       </Reveal>
+
 
       <div className="mt-14 grid grid-cols-1 gap-6 md:grid-cols-2">
         <Reveal delay={0.05}>

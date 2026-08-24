@@ -9,7 +9,7 @@ const icons = [Rocket, Users, Trophy, Sparkles];
 
 export function WhyAttend() {
   return (
-    <section className="section-shell py-24 sm:py-32">
+    <section className="section-shell pt-4 pb-24 sm:pt-6 sm:pb-32">
       <Reveal className="text-center">
         <span className="eyebrow mx-auto">Why i5 Summit</span>
         <h2 className="mx-auto mt-5 max-w-2xl text-balance text-3xl font-semibold text-white sm:text-4xl">

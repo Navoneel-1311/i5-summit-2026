@@ -8,7 +8,7 @@ export function Stats() {
   return (
     <section className="relative py-20">
       <div className="section-shell">
-        <div className="glass-card grid grid-cols-2 gap-8 px-8 py-12 sm:grid-cols-4 sm:gap-6">
+        <div className="glass-card grid grid-cols-2 gap-8 px-8 py-10 sm:grid-cols-4 sm:gap-6">
           {stats.map((stat, i) => (
             <motion.div
               key={stat.label}
