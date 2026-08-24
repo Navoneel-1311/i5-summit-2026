@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Search, CalendarDays, MapPin, Trophy, X } from "lucide-react";
+import { Search, CalendarDays, MapPin, Trophy } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -10,7 +10,6 @@ import {
   DialogContent,
   DialogHeader,
   DialogTitle,
-  DialogClose,
 } from "@/components/ui/dialog";
 import { cn } from "@/lib/utils";
 import {
@@ -153,12 +152,6 @@ export function EventsExplorer() {
                 </a>{" "}
                 to be notified.
               </div>
-              <DialogClose
-                aria-label="Close"
-                className="absolute top-5 right-5 text-ink-300 hover:text-white"
-              >
-                <X className="size-4" />
-              </DialogClose>
             </>
           )}
         </DialogContent>

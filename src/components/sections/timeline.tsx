@@ -6,7 +6,7 @@ import { roadmap } from "@/lib/data/gallery";
 
 export function Timeline() {
   return (
-    <section className="section-shell py-24 sm:py-32">
+    <section className="section-shell py-24 sm:py-14">
       <Reveal className="text-center">
         <span className="eyebrow mx-auto">Roadmap</span>
         <h2 className="mx-auto mt-5 max-w-2xl text-balance text-3xl font-semibold text-white sm:text-4xl">

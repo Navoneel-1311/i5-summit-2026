@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -7,8 +8,16 @@ import { ArrowRight, CalendarDays, MapPin } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
 import { Countdown } from "@/components/motion/countdown";
 import { site } from "@/lib/data/site";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
 
 export function Hero() {
+  const [isMapOpen, setIsMapOpen] = useState(false);
+
   return (
     <section className="relative flex min-h-screen items-center overflow-hidden pt-28 pb-20">
       {/* floating gradient particles */}
@@ -101,8 +110,15 @@ export function Hero() {
               transition={{ duration: 0.7, delay: 0.4 }}
               className="mt-10 flex items-center gap-2 text-sm text-ink-300"
             >
-              <MapPin className="size-4 text-gold-500" />
-              IIM Indore Campus · Offline
+              <button
+                onClick={() => setIsMapOpen(true)}
+                className="group flex items-center gap-2 text-sm text-ink-300 hover:text-white transition-colors cursor-pointer text-left"
+              >
+                <MapPin className="size-4 text-gold-500 group-hover:scale-110 transition-transform" />
+                <span className="underline underline-offset-4 decoration-gold-500/50 hover:decoration-gold-500">
+                  IIM Indore Campus · Offline
+                </span>
+              </button>
             </motion.div>
 
             <motion.div
@@ -142,6 +158,34 @@ export function Hero() {
           </motion.div>
         </div>
       </div>
+
+      {/* Map Dialog Modal */}
+      <Dialog open={isMapOpen} onOpenChange={setIsMapOpen}>
+        <DialogContent className="border-white/10 bg-navy-900 text-white sm:max-w-xl">
+          <DialogHeader>
+            <DialogTitle className="font-heading text-xl text-white flex items-center gap-2">
+              <MapPin className="size-5 text-gold-500" />
+              Indian Institute of Management, Indore
+            </DialogTitle>
+          </DialogHeader>
+          
+          <div className="mt-2 w-full overflow-hidden rounded-xl border border-white/10 shadow-xl bg-navy-950">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29462.00701416259!2d75.75621480119909!3d22.625776278574918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962f9413df8a67f%3A0xe96cc7f979f4918f!2sIndian%20Institute%20of%20Management%2C%20Indore%20(IIM%E2%80%93Indore)!5e0!3m2!1sen!2sin!4v1787595903621!5m2!1sen!2sin"
+              width="100%"
+              height="350"
+              style={{ border: 0 }}
+              allowFullScreen={true}
+              loading="lazy"
+              referrerPolicy="strict-origin-when-cross-origin"
+              className="w-full grayscale contrast-125 opacity-90 hover:grayscale-0 transition-all duration-500"
+            />
+          </div>
+          <p className="text-xs text-ink-300 text-center mt-1">
+            Prabandh Shikhar, Rau - Pithampur Rd, Indore, Madhya Pradesh 453556
+          </p>
+        </DialogContent>
+      </Dialog>
     </section>
   );
 }

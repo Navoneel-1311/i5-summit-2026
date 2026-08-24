@@ -7,7 +7,7 @@ import { pastSpeakers, ventureCapitalists, type Speaker } from "@/lib/data/speak
 
 function SpeakerGrid({ people }: { people: Speaker[] }) {
   return (
-    <RevealGroup className="grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-5">
+    <RevealGroup className="grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-5 pt-2 pb-3 sm:pt-3 sm:pb-4">
       {people.map((person) => (
         <motion.div
           key={person.name}
